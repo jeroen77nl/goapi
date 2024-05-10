@@ -5,7 +5,6 @@ starten in cli vanuit doapi directory met:
 
 ```zsh
 goapi git:(main) ✗ go run cmd/api/main.go
-```
 
 Starting GO API service...
 
@@ -15,8 +14,6 @@ Starting GO API service...
  \ \_____\  \ \_____\     \ \_\ \_\  \ \_\    \ \_\ 
   \/_____/   \/_____/      \/_/\/_/   \/_/     \/_/ 
 
-
-```zsh
 ➜  goapi git:(main) ✗ curl -H "Authorization:789GHI" http://localhost:8000/account/coins/\?username=marie
 {"Code":200,"Balance":300}
 
