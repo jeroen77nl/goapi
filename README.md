@@ -1,7 +1,7 @@
 # goapi
 Voorbeeld rest api in golang van youtube kanaal Alex Mux
 
-starten in cli vanuit doapi directory met:
+starten in cli vanuit goapi directory met:
 
 ```zsh
 $ go run cmd/api/main.go
